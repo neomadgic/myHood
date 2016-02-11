@@ -155,7 +155,6 @@
                                         </state>
                                         <connections>
                                             <action selector="cancelBtnPressed:" destination="Khj-AY-wCo" eventType="touchUpInside" id="QlG-PX-F8B"/>
-                                            <segue destination="BYZ-38-t0r" kind="show" identifier="MainVC" id="ali-GJ-qrM"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Make a post" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQH-qw-03N">
