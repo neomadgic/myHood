@@ -14,6 +14,7 @@
 		765605261C69B625006B7AEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 765605241C69B625006B7AEA /* LaunchScreen.storyboard */; };
 		765A09B41C6BC7D4002203F7 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765A09B31C6BC7D4002203F7 /* Post.swift */; settings = {ASSET_TAGS = (); }; };
 		765A09B71C6BCC26002203F7 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765A09B61C6BCC26002203F7 /* PostCell.swift */; settings = {ASSET_TAGS = (); }; };
+		766241311C6D267100D5E47B /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766241301C6D267100D5E47B /* AddPostVC.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		765605271C69B625006B7AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		765A09B31C6BC7D4002203F7 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		765A09B61C6BCC26002203F7 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		766241301C6D267100D5E47B /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +62,8 @@
 			children = (
 				7656052D1C69BA8B006B7AEA /* Model */,
 				765A09B51C6BCBFA002203F7 /* View */,
+				7662412F1C6D263400D5E47B /* Controller */,
 				7656051B1C69B625006B7AEA /* AppDelegate.swift */,
-				7656051D1C69B625006B7AEA /* ViewController.swift */,
-				7656051F1C69B625006B7AEA /* Main.storyboard */,
 				765605221C69B625006B7AEA /* Assets.xcassets */,
 				765605241C69B625006B7AEA /* LaunchScreen.storyboard */,
 				765605271C69B625006B7AEA /* Info.plist */,
@@ -81,9 +82,19 @@
 		765A09B51C6BCBFA002203F7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7656051F1C69B625006B7AEA /* Main.storyboard */,
 				765A09B61C6BCC26002203F7 /* PostCell.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		7662412F1C6D263400D5E47B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7656051D1C69B625006B7AEA /* ViewController.swift */,
+				766241301C6D267100D5E47B /* AddPostVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +169,7 @@
 			files = (
 				765A09B41C6BC7D4002203F7 /* Post.swift in Sources */,
 				7656051E1C69B625006B7AEA /* ViewController.swift in Sources */,
+				766241311C6D267100D5E47B /* AddPostVC.swift in Sources */,
 				7656051C1C69B625006B7AEA /* AppDelegate.swift in Sources */,
 				765A09B71C6BCC26002203F7 /* PostCell.swift in Sources */,
 			);

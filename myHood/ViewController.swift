@@ -29,6 +29,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         posts.append(fakePost2)
         posts.append(fakePost3)
         
+        
+        
         tableView.reloadData();
     }
     
