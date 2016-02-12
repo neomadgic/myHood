@@ -15,6 +15,7 @@
 		765A09B41C6BC7D4002203F7 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765A09B31C6BC7D4002203F7 /* Post.swift */; settings = {ASSET_TAGS = (); }; };
 		765A09B71C6BCC26002203F7 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765A09B61C6BCC26002203F7 /* PostCell.swift */; settings = {ASSET_TAGS = (); }; };
 		766241311C6D267100D5E47B /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766241301C6D267100D5E47B /* AddPostVC.swift */; settings = {ASSET_TAGS = (); }; };
+		76F906181C6E660200ACB407 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F906171C6E660200ACB407 /* DataService.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		765A09B31C6BC7D4002203F7 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		765A09B61C6BCC26002203F7 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		766241301C6D267100D5E47B /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
+		76F906171C6E660200ACB407 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		7656051A1C69B625006B7AEA /* myHood */ = {
 			isa = PBXGroup;
 			children = (
+				76F906161C6E65E200ACB407 /* Services */,
 				7656052D1C69BA8B006B7AEA /* Model */,
 				765A09B51C6BCBFA002203F7 /* View */,
 				7662412F1C6D263400D5E47B /* Controller */,
@@ -95,6 +98,14 @@
 				766241301C6D267100D5E47B /* AddPostVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		76F906161C6E65E200ACB407 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				76F906171C6E660200ACB407 /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +181,7 @@
 				765A09B41C6BC7D4002203F7 /* Post.swift in Sources */,
 				7656051E1C69B625006B7AEA /* ViewController.swift in Sources */,
 				766241311C6D267100D5E47B /* AddPostVC.swift in Sources */,
+				76F906181C6E660200ACB407 /* DataService.swift in Sources */,
 				7656051C1C69B625006B7AEA /* AppDelegate.swift in Sources */,
 				765A09B71C6BCC26002203F7 /* PostCell.swift in Sources */,
 			);
