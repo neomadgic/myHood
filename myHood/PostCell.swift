@@ -28,6 +28,7 @@ class PostCell: UITableViewCell
     {
         titleLbl.text = post.title
         descLbl.text = post.postDesc
+        postImg.image = DataService.instance.imageForPath(post.imagePath)
     }
 
 }

@@ -45,7 +45,8 @@ class AddPostVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
     {
         if let title = titleField.text, let desc = descField.text, let img = postImage.image
             {
-                let post = Post(imagePath: "", title: title, postDesc: desc)
+                let imgPath = DataService.instance.saveImageAndCreatePath(img)
+                let post = Post(imagePath: imgPath, title: title, postDesc: desc)
                 DataService.instance.addPost(post)
                 dismissViewControllerAnimated(true, completion: nil)
             }
